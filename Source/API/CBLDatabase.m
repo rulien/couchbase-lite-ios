@@ -177,6 +177,8 @@ static id<CBLFilterCompiler> sFilterCompiler;
         return NO;
 
     [self clearDocumentCache];
+    [_manager.shared closedDatabase:self.name];
+
     _modelFactory = nil;
     return YES;
 }
