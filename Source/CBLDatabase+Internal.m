@@ -41,7 +41,7 @@ NSString* const CBL_DatabaseWillBeDeletedNotification = @"CBL_DatabaseWillBeDele
 
 #define kSQLiteBusyTimeout 0.1 // seconds
 
-#define kTransactionMaxRetries 20
+#define kTransactionMaxRetries 50
 #define kTransactionRetryDelay 0.050
 
 
